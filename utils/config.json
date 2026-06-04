@@ -1,0 +1,62 @@
+{
+    "XD": {
+        "num_layers": 4,
+        "hidden_channels": 256,
+        "lr": 0.001,
+        "nalpha": 0.5,
+        "ealpha": 0.5,
+        "kappa": 100,
+        "topk": 12,
+        "dropout": 0.3,
+        "max_epochs": 500,
+        "patience": 20
+    },
+    "ZD": {
+        "num_layers": 4,
+        "hidden_channels": 256,
+        "lr": 0.001,
+        "nalpha": 0.5,
+        "ealpha": 0.3,
+        "kappa": 80,
+        "topk": 18,
+        "dropout": 0.6,
+        "max_epochs": 500,
+        "patience": 20
+    },
+    "YD": {
+        "num_layers": 3,
+        "hidden_channels": 128,
+        "lr": 0.01,
+        "nalpha": 0.6,
+        "ealpha": 0.3,
+        "kappa": 18,
+        "topk": 7,
+        "dropout": 0.1,
+        "max_epochs": 500,
+        "patience": 20
+    },
+    "ED": {
+        "num_layers": 3,
+        "hidden_channels": 512,
+        "lr": 0.0001,
+        "nalpha": 0.9,
+        "ealpha": 0.2,
+        "kappa": 19,
+        "topk": 20,
+        "dropout": 0,
+        "max_epochs": 500,
+        "patience": 20
+    },
+    "all": {
+        "num_layers": 3,
+        "hidden_channels": 64,
+        "lr": 0.01,
+        "nalpha": 0.9,
+        "ealpha": 0.3,
+        "kappa": 20,
+        "topk": 20,
+        "dropout": 0.2,
+        "max_epochs": 1000,
+        "patience": 100
+    }
+} 
